@@ -2,7 +2,7 @@ package com.employeewage;
 
 public class EmployeeWageComputation
 {
-    public static void main( String[] args )
+    public static void calculateTotalWage()
     {
         System.out.println( "Welcome to Employee Wage Computation Program" );
         final int FULL_TIME = 2;
@@ -35,5 +35,9 @@ public class EmployeeWageComputation
             System.out.printf("%5d       %5d      %5d      %5d\n", day, workingHours, wage, totalWorkingHrs + workingHours);
         }
         System.out.println("Total wage for a month is " + totalWage);
+    }
+    public static void main( String[] args )
+    {
+        calculateTotalWage();
     }
 }
