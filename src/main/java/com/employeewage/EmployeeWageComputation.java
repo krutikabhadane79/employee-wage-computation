@@ -1,5 +1,4 @@
 package com.employeewage;
-
 public class EmployeeWageComputation
 {
     public static void calculateTotalWage(String company, int WAGE_PER_HR, int MAX_WORKING_DAYS, int MAX_WORKING_HRS)
